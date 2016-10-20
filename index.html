@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+      <p>Enter the lengths of each side of your triangle.</p>
+
+      <form id="triangle">
+        <label for="sideA">Side A</label>
+        <input id="sideA" type="text">
+        <label for="sideB">Side B</label>
+        <input id="sideB" type="text">
+        <label for="sideC">Side C</label>
+        <input id="sideC" type="text">
+
+        <button type="submit" class="btn">Calculate my Triangle</button>
+      </form>
+
+        <div id="equilateral">
+        <img src="img/equilateral.jpg" alt="Equilateral Triangle" class="centerImage
+        "/>
+        <p class="centerText">Equilateral Triangle</p>
+        </div>
+
+        <div id="isosceles">
+        <img src="img/isosceles.jpg" alt="Isosceles Triangle" class="centerImage
+        "/>
+        <p class="centerText">Isosceles</p>
+        </div>
+
+        <div id="scalene">
+        <img src="img/scalene.jpg" alt="Scalene Triangle" class="centerImage"/>
+        <p class="centerText">Scalene Triangle</p>
+        </div>
+
+        <div id="none">
+        <img src="img/error.jpg" alt="none" class="centerImage"/>
+        <p class="centerText">Not a triangle!</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

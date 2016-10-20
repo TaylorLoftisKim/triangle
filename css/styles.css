@@ -1,0 +1,16 @@
+.btn {
+  display: block;
+}
+
+#equilateral, #scalene, #isosceles, #none {
+  display: none;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerImage {
+  margin-left: 30%;
+  margin-right: 30%;
+}
